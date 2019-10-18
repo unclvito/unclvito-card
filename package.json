@@ -1,16 +1,16 @@
 {
-  "name": "@bnb/card",
+  "name": "@unclvito/card",
   "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Matt Lagrotte (@unclvito)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "unclvito": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com:unclvito/unclvito-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://www.stuffbymatt.com",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Matt Lagrotte <matt@lagrotte.net> (http://stuffbymatt.com)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,7 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/unclvito/unclvito/issues"
   },
   "dependencies": {},
   "publishConfig": {
