@@ -22,7 +22,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('unclvito'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('lagrotte'),
   tesla: chalk.gray('https://ts.la/') + chalk.yellow('matt17582'),
-  tonal: chalk.gray('http://fbuy.me/') + chalk.yellow('v/matt_8054'),
+  tonal: chalk.gray('http://fbuy.me/') + chalk.cyan('v/matt_8054'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~unclvito'),
   web: chalk.cyan('https://stuffbymatt.com'),
   npx: chalk.red('npx') + ' ' + chalk.white('unclvito'),
