@@ -22,6 +22,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('unclvito'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('lagrotte'),
   tesla: chalk.gray('https://ts.la/') + chalk.yellow('matt17582'),
+  tonal: chalk.gray('http://fbuy.me/') + chalk.yellow('v/matt_8054'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~unclvito'),
   web: chalk.cyan('https://stuffbymatt.com'),
   npx: chalk.red('npx') + ' ' + chalk.white('unclvito'),
@@ -32,6 +33,7 @@ const data = {
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelTesla: chalk.white.bold('      Tesla:'),
+  labelTonal: chalk.white.bold('      Tonal:'),
   labelCard: chalk.white.bold('       Card:')
 }
 
@@ -46,6 +48,7 @@ const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 const teslaing = `${data.labelTesla}  ${data.tesla}`
+const tonaling = `${data.labelTonal}  ${data.tonal}`
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + // data.name + data.handle
@@ -56,6 +59,7 @@ const output = heading + // data.name + data.handle
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                teslaing + newline + // data.labelWeb + data.web
+               tonaling + newline + // data.labelWeb + data.web
                webing // + newline + newline + // data.labelWeb + data.web
                //carding // data.labelCard + data.npx
 
