@@ -1,6 +1,6 @@
 {
   "name": "unclvito",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A personal card for Matt Lagrotte (@unclvito)",
   "main": "/bin/card.js",
   "bin": {

@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('               Matt Lagrotte'),
   handle: chalk.white('unclvito'),
-  work: chalk.white('Principle Member of Technical Staff at Salesforce'),
+  work: chalk.white('Principal Member of Technical Staff at Salesforce'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('unclvito'),
   github: chalk.gray('https://github.com/') + chalk.green('unclvito'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('lagrotte'),
